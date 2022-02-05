@@ -1,6 +1,6 @@
 # convert_mysql_encoding.sh
 ## _Convert MySQL Encoding_
-## How to use
+## How to
 Clone  **convert_mysql_encoding**:
 
 > git clone git@github.com:worldquesta/convert_mysql_encoding.git
