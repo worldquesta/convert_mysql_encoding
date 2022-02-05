@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 if ([ -z "$1" ] || [ -z "$2" ] ||  [ -z "$3" ]) && [ "$2" != "SHOW" ]; then
   printf "Error.\n=-\n"
   echo '1) Example for run converting:'
