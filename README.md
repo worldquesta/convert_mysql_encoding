@@ -26,9 +26,12 @@ Output:
 >CHARACTER SET latin1
 >CHARACTER SET utf8
 >CHARSET=latin1
->CHARSET=utf8
+ CHARSET=utf8
+ 
  CHARSET=utf8mb4
+ 
  COLLATE latin1_swedish_ci
+ 
  COLLATE utf8_general_ci
  COLLATE=utf8mb4_0900_ai_ci
  COLLATE utf8_unicode_ci
