@@ -23,11 +23,8 @@ Copy you **bd_name.sql** in to cloned directory
 ./convert_mysql_encoding.sh bd_name.sql SHOW
 ```
 Output:
->
 > CHARACTER SET latin1
-> 
 > CHARACTER SET utf8
-> 
 > CHARSET=latin1
 > CHARSET=utf8
  
