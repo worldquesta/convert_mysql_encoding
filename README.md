@@ -1,6 +1,6 @@
 # convert_mysql_encoding.sh
 ## _Convert MySQL Encoding_
-</br>
+
 ## How to use
 Clone  convert mysql encoding script:
 
@@ -17,6 +17,5 @@ chmod 755 convert_mysql_encoding.sh
  - First PARAM: Name BD
  - Second PARAM: COLLATE for set in BD
  - Third  PARAM: CHARSET for set in BD
-</br>
 
 **That's all!**
