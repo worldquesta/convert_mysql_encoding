@@ -35,7 +35,7 @@ Output:
 > COLLATE=utf8_unicode_ci <br />
 > SET NAMES utf8mb4 <br />
 
-####Converting BD
+### Converting BD
 ```
  ./convert_mysql_encoding.sh name_bd.sql sql utf8mb4_unicode_ci utf8mb4
 ```
