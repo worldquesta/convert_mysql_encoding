@@ -1,13 +1,12 @@
 # convert_mysql_encoding.sh
-## Convert MySQL Encoding
+## _Convert MySQL Encoding_
 
-### How to use
 
-####Clone  convert mysql encoding script
+###Clone  convert mysql encoding script
 
 > git clone git@github.com:worldquesta/convert_mysql_encoding.git
 
-####Configure script
+###Configure script
 ```sh
 cd convert_mysql_encoding
 chmod 755 convert_mysql_encoding.sh
@@ -16,25 +15,25 @@ chmod 755 convert_mysql_encoding.sh
  - Second PARAM: COLLATE for set in BD or SHOW
  - Third  PARAM: CHARSET for set in BD
 
-####Prepare
+###Prepare
 Copy you **bd_name.sql** in to cloned directory
 
-####Show existing Encoding in dump
+###Show existing Encoding in dump
 ```
 ./convert_mysql_encoding.sh bd_name.sql SHOW
 ```
 Output:
-> CHARACTER SET latin1
-> CHARACTER SET utf8
-> CHARSET=latin1
-> CHARSET=utf8
-> CHARSET=utf8mb4
-> COLLATE latin1_swedish_ci
-> COLLATE utf8_general_ci
-> COLLATE=utf8mb4_0900_ai_ci
-> COLLATE utf8_unicode_ci
-> COLLATE=utf8_unicode_ci
-> SET NAMES utf8mb4
+>CHARACTER SET latin1
+>CHARACTER SET utf8
+>CHARSET=latin1
+>CHARSET=utf8
+ CHARSET=utf8mb4
+ COLLATE latin1_swedish_ci
+ COLLATE utf8_general_ci
+ COLLATE=utf8mb4_0900_ai_ci
+ COLLATE utf8_unicode_ci
+ COLLATE=utf8_unicode_ci
+ SET NAMES utf8mb4
 
 ####Converting BD
 ```
