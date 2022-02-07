@@ -52,7 +52,9 @@ Output:
 > YOU CAN USE: /SET NAMES utf8mb4 / s//SET NAMES utf8 /g <br />
 > ... <br />
 > Done converting proccess. <br />
-
+```
+./convert_mysql_encoding.sh bd_name.sql SHOW
+```
 Output after:
 > CHARACTER SET utf8mb4 <br />
 > CHARSET=utf8mb4 <br />
